@@ -1,0 +1,22 @@
+{
+  "name": "youtubeTrendingVideos api",
+  "version": "1.0.0",
+  "description": "backend for youtube trending video api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js"
+  },
+  "author": "Harshavardhana Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongodb": "^4.4.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7"
+  }
+}
