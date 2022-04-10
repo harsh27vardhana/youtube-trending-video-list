@@ -7,9 +7,7 @@ const updateRouter = require('./routes/dataBaseUpdate/update.router');
 const videoListRouter = require('./routes/videoList/videoList.router');
 
 const app = express();
-app.use(cors({
-    origin: 'https://youtubetrendinglist.herokuapp.com';
-}));
+app.use(cors());
 app.use(morgan('tiny'));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '..', 'public')));
